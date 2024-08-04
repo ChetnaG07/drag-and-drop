@@ -1,0 +1,42 @@
+.todos-box {
+	border: 1px solid #bc9fff;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 15px;
+}
+
+.todo-box {
+	margin-top: 10px;
+	border: 1px dashed blueviolet;
+	border-radius: 15px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.todo-title {
+	display: flex;
+	align-items: center;
+}
+
+.todo-title h2 {
+	font-size: 14px;
+	margin-left: 5px;
+	margin-bottom: 0;
+}
+
+.todo-delete {
+	color: red;
+}
+.todo-delete span {
+	cursor: pointer;
+}
+
+input[type="text"] {
+	width: 100%;
+	border: 1px solid #e4e0e0;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding: 5px 15px;
+}
